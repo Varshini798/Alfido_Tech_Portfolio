@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+.custom-navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #00bcd4 !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #00bcd4 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding-top: 80px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #00bcd4;
+    border: none;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0097a7;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c5364;
+}
+
+/* Skills */
+.skill-box {
+    background: #00bcd4;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+}
+
+/* Projects */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+}
